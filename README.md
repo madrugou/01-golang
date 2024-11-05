@@ -25,13 +25,17 @@ O Dockerfile está estruturado em duas etapas:
 
 ## Como Executar
 
-1. Para construir e executar a imagem Docker:
+1. Baixar a imagem:
+
+```bash docker pull madrugou/fullcycle:latest```
+
+2. Para construir e executar a imagem Docker:
 
 ```bash
 docker build -t hello-fullcycle-go .
 ```
 
-2. Execute o container:
+3. Execute o container:
 
 ```bas
 docker run --rm hello-fullcycle-go

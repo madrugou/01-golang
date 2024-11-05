@@ -23,11 +23,19 @@ O Dockerfile está estruturado em duas etapas:
 1. **Compilação do Binário**: Utiliza a imagem `golang:alpine` para compilar o código em um binário estático e otimizado para Linux.
 2. **Imagem Final**: Copia o binário para uma imagem `scratch`, que é minimalista e sem sistema operacional, reduzindo o tamanho ao mínimo necessário.
 
+
+## Imagem Docker Hub
+
+Abaixo segue o link da imagem docker:
+https://hub.docker.com/r/madrugou/fullcycle/tags
+
 ## Como Executar
 
 1. Baixar a imagem:
 
-```bash docker pull madrugou/fullcycle:latest```
+```bash 
+docker pull madrugou/fullcycle:latest
+```
 
 2. Para construir e executar a imagem Docker:
 
